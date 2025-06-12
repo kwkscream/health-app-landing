@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<main class="max-w-[1230px] w-full mx-auto">
+	<main class="max-w-[1230px] w-full mx-auto mb-[160px]">
 		<div
 			class="flex flex-col items-center justify-center text-center mb-[60px]"
 		>

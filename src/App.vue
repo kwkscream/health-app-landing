@@ -3,7 +3,7 @@ import Header from "./components/Header.vue";
 import HeroSection from "./components/HeroSection.vue";
 import Tutorial from "./components/Tutorial.vue"
 import MainInfo from "./components/MainInfo.vue";
-
+import Blog from "./components/Blog.vue"
 </script>
 
 <template>
@@ -11,6 +11,7 @@ import MainInfo from "./components/MainInfo.vue";
 	<HeroSection />
 	<Tutorial />
 	<MainInfo />
+	<Blog />
 </template>
 
 <style>
