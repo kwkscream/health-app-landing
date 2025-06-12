@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<section class="max-w-[1237px] w-full mx-auto  mb-[170px]">
+	<section class="max-w-[1237px] w-full mx-auto mb-[170px]">
 		<div class="relative w-full">
 			<img
 				src="@/assets/images/hero_bg.png"
@@ -13,7 +13,7 @@
 				src="@/assets/images/iphone_main.png"
 				width="534"
 				height="710"
-				class="absolute top-26 left-160"
+				class="absolute top-[103px] right-[41px] "
 				style="
 					filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.3))
 						drop-shadow(-4px 0 4px rgba(0, 0, 0, 0.1))

@@ -14,7 +14,7 @@ const toggle = () => {
 
 <template>
 	<header class="mb-[62px]">
-		<div class="max-w-[1230px] w-full mx-auto main-container">
+		<div class="max-w-[1230px] w-full mx-auto">
 			<div class="flex justify-between">
 				<nav class="flex p-2 items-center">
 					<a href="/" class="text-[#6750A4] font-bold text-[40px]"
@@ -22,7 +22,7 @@ const toggle = () => {
 					>
 				</nav>
 				<nav
-					class="flex p-6 gap-[24px] text-lg items-center leading-relaxed"
+					class="flex p-6 gap-[24px] text-lg text-[#23153E] items-center leading-relaxed"
 				>
 					<a href="/">Home</a>
 					<a href="/">About</a>
@@ -58,7 +58,7 @@ const toggle = () => {
 						<div class="relative inline-block">
 							<button
 								@click="toggleDrop"
-								class="flex items-center text-lg cursor-pointer"
+								class="flex items-center text-lg cursor-pointer text-[#23153E]"
 							>
 								Eng
 								<svg
