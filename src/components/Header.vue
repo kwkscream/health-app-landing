@@ -87,13 +87,13 @@ const toggle = () => {
 								<a
 									href="/"
 									class="flex items-center text-sm px-4 py-2 text-[#23153E] hover:bg-gray-100" 
-									><img src="@/assets/Icons/sverige_icon.svg" width="24" height="24"> Sverige</a
+									><img src="@/assets/Icons/sverige_icon.svg" width="30" height="30"> Sverige</a
 								>
 
 								<a
 									href="/"
 									class="flex items-center text-sm  px-4 py-2 text-[#23153E] hover:bg-gray-100"
-									><img src="@/assets/Icons/english_icon.svg" width="24" height="24"> English</a
+									><img src="@/assets/Icons/english_icon.svg" width="30" height="30"> English</a
 								>
 							</div>
 						</div>
