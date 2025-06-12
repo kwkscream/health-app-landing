@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<section class="max-w-[1230px] w-full mx-auto">
+	<section class="max-w-[1230px] w-full mx-auto mb-[160px]">
 		<div class="flex items-center justify-center">
 			<div class="flex flex-col justify-center items-center">
 				<h2 class="text-5xl font-bold mb-6 text-[#23153E]">

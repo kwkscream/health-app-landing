@@ -2,6 +2,7 @@
 import Header from "./components/Header.vue";
 import HeroSection from "./components/HeroSection.vue";
 import Tutorial from "./components/Tutorial.vue"
+import MainInfo from "./components/MainInfo.vue";
 
 </script>
 
@@ -9,6 +10,7 @@ import Tutorial from "./components/Tutorial.vue"
 	<Header />
 	<HeroSection />
 	<Tutorial />
+	<MainInfo />
 </template>
 
 <style>

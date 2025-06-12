@@ -1,0 +1,79 @@
+<script setup></script>
+
+<template>
+	<main class="max-w-[1230px] w-full mx-auto">
+		<div
+			class="flex flex-col items-center justify-center text-center mb-[60px]"
+		>
+			<h3 class="font-bold text-[#23153E] text-5xl p-6">
+				Before, during and after pregnancy
+			</h3>
+			<p class="text-[#443A5A] font-medium text-3xl p-5">
+				The app is divided into three different stages to help you
+				choose appropriate exercises. Each exercise is carefully
+				selected to ensure safe and appropriate adjustments to follow
+				the pregnancy’s progress.
+			</p>
+			<div class="bg-[#FF2D55] h-[3px] w-[46px] mb-[60px]"></div>
+		</div>
+
+		<div
+			class="flex items-center justify-center gap-[90px] relative mb-6"
+		>
+			<div>
+				<h3
+					class="font-bold text-[40px] text-[#23153E] mb-3.5 text-start"
+				>
+					Before pregnancy
+				</h3>
+				<div class="bg-[#FF2D55] h-[3px] w-[46px] mb-6"></div>
+				<p class="leading-7 text-lg text-[#443A5A] mb-4">
+					Start preparing for pregnancy with safe exercises that build
+					up a strong body.
+				</p>
+				<h4 class="font-medium text-3xl text-[#443A5A] mb-[5px]">
+					Trimesters
+				</h4>
+				<p class="text-lg text-[#443A5A] max-w-[556px]">
+					The pregnancy is divided into first trimester, second
+					trimester part 1 and 2, and third trimester part 1 and 2 to
+					provide exercises that are safe for each stage of the
+					pregnancy. Each exercise comes with a video and a
+					description so you can safely perform each exercise. Simple
+					put in your due date and you will be taken to the proper
+					stage.
+				</p>
+			</div>
+			<div class="w-[546px] h-[683px]">
+				<img src="@/assets/images/activities.png" />
+			</div>
+			<img
+				src="@/assets/images/healthy_text.png"
+				width="973"
+				height="217"
+				class="absolute top-157 left-65 -z-30"
+			/>
+		</div>
+		<div class="flex items-center gap-[90px]">
+			<div>
+				<img
+					src="@/assets/images/during.png"
+					width="546"
+					height="652"
+				/>
+			</div>
+			<div class="max-w-[605px]">
+				<h3 class="font-bold text-[40px] text-[#23153E] mb-3.5">
+					During pregnancy
+				</h3>
+				<div class="bg-[#FF2D55] h-[3px] w-[46px] mb-6"></div>
+				<p class="text-lg text-[#443A5A] leading-7 max-w-[498px]">
+					Working out during pregnancy has many benefits for both the
+					mom and the baby. It can reduce back pain, help prevent
+					gestational diabetes, promote good posture, strength and
+					endurance, and also improve the ability to cope with labor.
+				</p>
+			</div>
+		</div>
+	</main>
+</template>
