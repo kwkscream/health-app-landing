@@ -3,7 +3,7 @@
 <template>
 	<section class="max-w-[1230px] w-full mx-auto mb-[160px]">
 		<div class="relative">
-			<img src="@/assets/Images/send_data_bg.png" />
+			<img src="@/assets/images/send_data_bg.png" />
 			<div
 				class="absolute top-[100px] left-[105px] flex justify-center items-center gap-[240px]"
 			>
