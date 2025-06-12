@@ -5,7 +5,7 @@ import Tutorial from "./components/Tutorial.vue"
 import MainInfo from "./components/MainInfo.vue";
 import Blog from "./components/Blog.vue"
 import SendDataCTA from "./components/SendDataCTA.vue"
-
+import Footer from "./components/Footer.vue";
 
 </script>
 
@@ -16,6 +16,7 @@ import SendDataCTA from "./components/SendDataCTA.vue"
 	<MainInfo />
 	<Blog />
 	<SendDataCTA />
+	<Footer />
 </template>
 
 <style>
