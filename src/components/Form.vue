@@ -32,7 +32,7 @@ const handleForm = () =>{
 					placeholder="Name"
 					type="text"
 					name="fname"
-					class="w-full pl-[30px] py-[15px] pr-[260] bg-white rounded-full mb-4"
+					class="w-full pl-[30px] py-[15px] bg-white rounded-full mb-4"
 				/>
 				<input
 					v-model="form.sname"
@@ -40,7 +40,7 @@ const handleForm = () =>{
 					placeholder="Second Name"
 					type="text"
 					name="sname"
-					class="w-full pl-[30px] py-[15px] pr-[260] bg-white rounded-full mb-4"
+					class="w-full pl-[30px] py-[15px] bg-white rounded-full mb-4"
 				/>
 				<input
 					v-model="form.email"
@@ -48,7 +48,7 @@ const handleForm = () =>{
 					placeholder="Email"
 					type="email"
 					name="email"
-					class="w-full pl-[30px] py-[15px] pr-[260] bg-white rounded-full mb-4"
+					class="w-full pl-[30px] py-[15px] bg-white rounded-full mb-4"
 				/>
 				<input
 					v-model="form.adress"
@@ -56,7 +56,7 @@ const handleForm = () =>{
 					placeholder="Adress"
 					type="text"
 					name="adress"
-					class="w-full pl-[30px] py-[15px] pr-[260] bg-white rounded-full mb-4"
+					class="w-full pl-[30px] py-[15px] bg-white rounded-full mb-4"
 				/>
 
 				<button
