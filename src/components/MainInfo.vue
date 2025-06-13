@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<main class="max-w-[1230px] w-full mx-auto mb-[160px] px-4">
+	<main class="max-w-[1240px] w-full mx-auto mb-[160px] px-4 md:px-0">
 		<div
 			class="flex flex-col items-center justify-center text-center mb-[60px]"
 		>
@@ -18,7 +18,7 @@
 		</div>
 
 		<div
-			class="flex items-center justify-center gap-10 md:gap-[90px] relative mb-6 px-2 sm:px-0"
+			class="flex items-center justify-center gap-10 md:gap-[90px] relative mb-[68px] px-2 sm:px-0"
 		>
 			<div class="mb-5 md:mb-0">
 				<h3
@@ -44,14 +44,14 @@
 					stage.
 				</p>
 			</div>
-			<div class="hidden md:inline-block md:w-[546px] md:h-[683px]">
-				<img src="@/assets/images/activities.png" />
+			<div class="hidden md:inline-block">
+				<img src="@/assets/images/activities.png" class=" min-w-[546px] h-[683px]" />
 			</div>
 			<img
 				src="@/assets/images/healthy_text.png"
 				width="973"
 				height="217"
-				class="hidden md:inline-block absolute top-157 left-65 -z-30"
+				class="hidden md:inline-block absolute top-170 left-65 -z-30"
 			/>
 		</div>
 		<div class="flex justify-end md:justify-between md:items-center flex-row-reverse md:flex-row gap-10 md:gap-[90px] px-2 md:px-0">

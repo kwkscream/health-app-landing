@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<section class="max-w-[1230px] w-full mx-auto mb-[160px] px-4">
+	<section class="max-w-[1240px] w-full mx-auto mb-[160px] px-4 md:px-0 flex items-center justify-center">
 		<div class="bg-[url('@/assets/images/send_data_bg.png')] bg-cover bg-center w-full rounded-2xl">
 			<div
 				class="flex flex-col md:flex-row items-center justify-center gap-5 md:gap-[240px] px-[50px] py-[55px] md:px-[100px] md:py-[105px]"

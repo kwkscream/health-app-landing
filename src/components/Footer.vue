@@ -3,7 +3,7 @@
 <template>
 	<footer class="w-full bg-[#423C4E] py-10 px-4">
 		<div
-			class="max-w-[1230px] w-full mx-auto flex flex-col md:flex-row md:gap-[94px] items-start justify-between"
+			class="max-w-[1240px] w-full mx-auto flex flex-col md:flex-row md:gap-[94px] items-start justify-between"
 		>
 			<div class="text-center md:text-start">
 				<a

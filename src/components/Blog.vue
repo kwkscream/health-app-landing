@@ -24,7 +24,7 @@ const articles = [
 </script>
 
 <template>
-	<section class="max-w-[1230px] w-full mx-auto mb-[80px] px-4">
+	<section class="max-w-[1240px] w-full mx-auto mb-[80px] px-4 md:px-0">
 		<div class="flex flex-col items-center justify-center mb-8">
 			<h2 class="mb-5 text-3xl md:text-5xl text-[#23153E] font-bold">
 				Our blog posts
@@ -32,10 +32,10 @@ const articles = [
 			<div
 				class="bg-[#FF2D55] h-[2px] w-[34px] md:h-[3px] md:w-[46px] mb-[60px]"
 			></div>
-			<div class="flex items-center justify-center gap-[16px] md:gap-[30px] flex-col lg:flex-row">
+			<div class="flex items-center justify-center gap-[16px] md:gap-[30px] flex-col xl:flex-row">
 				<article class="relative">
 					<img
-						class="w-full object-cover rounded-2xl"
+						class="xl:min-w-[604px] object-cover rounded-2xl"
 						src="/article_images/blog_1.png"
 					/>
 
@@ -68,13 +68,13 @@ const articles = [
 					</div>
 				</article>
 
-				<div class="grid grid-cols-2 gap-[16px] md:gap-[32px]">
+				<div class="grid grid-cols-2 gap-[16px] md:gap-[32px] md:min-w-[604px]">
 					<article
 						v-for="article in articles"
 						:key="article.title"
 						class="relative w-full"
 					>
-						<img :src="article.img" />
+						<img :src="article.img" class="xl:min-w-[286px]" />
 
 						<div
 							class="w-full absolute bottom-[16px] left-[16px] right-[99px]"

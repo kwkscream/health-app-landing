@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<section class="max-w-[1237px] w-full mx-auto mb-[170px] px-4">
+	<section class="max-w-[1240px] w-full mx-auto mb-[170px] px-4 md:px-0">
 		<div class="relative w-full">
 			<img
 				src="@/assets/images/hero_bg.png"
