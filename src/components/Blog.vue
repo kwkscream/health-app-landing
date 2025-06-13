@@ -48,19 +48,19 @@ const articles = [
 							Return to running after <br />
 							pregnancy – Is your body strong enough for running?
 						</h4>
-						<div class="flex gap-9">
+						<div class="flex items-center gap-9">
 							<div class="flex gap-[9px]">
 								<img
 									src="@/assets/Icons/blog_icon.svg"
 									width="30"
 									height="30"
 								/>
-								<span class="text-base text-white leading-7"
+								<span class="whitespace-nowrap text-xs md:text-base text-white leading-7"
 									>BY TILDA LOFTIN</span
 								>
 							</div>
 							<div>
-								<span class="text-base text-white leading-7"
+								<span class="whitespace-nowrap text-sm md:text-base text-white leading-7"
 									>JUNE 25, 2021</span
 								>
 							</div>
@@ -86,7 +86,7 @@ const articles = [
 							</h5>
 							<span
 								class="text-xs md:text-base text-white leading-7"
-								>APRIL 21, 2021</span
+								>{{article.date}}</span
 							>
 						</div>
 					</article>
