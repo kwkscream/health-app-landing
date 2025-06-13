@@ -15,7 +15,7 @@ const handleForm = () =>{
 </script>
 
 <template>
-	<main class="max-w-[1230px] w-full mx-auto">
+	<main class="max-w-[1230px] w-full mx-auto px-4">
 		<div
 			class="bg-[url('@/assets/images/form_bg.png')] bg-no-repeat bg-cover bg-center h-[560px] rounded-3xl mb-[100px] flex justify-center items-center"
 		>
@@ -23,7 +23,7 @@ const handleForm = () =>{
 				@submit.prevent="handleForm"
 				class="flex flex-col max-w-[400px] justify-center items-center"
 			>
-				<h2 class="text-white text-5xl font-bold mb-4">
+				<h2 class="text-white text-3xl md:text-5xl font-bold mb-4">
 					Send your data
 				</h2>
 				<input
@@ -60,7 +60,7 @@ const handleForm = () =>{
 				/>
 
 				<button
-					class="cursor-pointer hover:opacity-90 font-medium text-lg text-white py-[15px] px-[162px] bg-[#6750A4] rounded-full"
+					class="cursor-pointer hover:opacity-90 font-medium text-lg text-white  py-[15px] px-[95px] md:px-[162px] bg-[#6750A4] rounded-full"
 				>
 					Submit
 				</button>
