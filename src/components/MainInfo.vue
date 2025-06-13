@@ -54,15 +54,13 @@
 				class="hidden md:inline-block absolute top-157 left-65 -z-30"
 			/>
 		</div>
-		<div class="flex flex-row-reverse md:flex-row items-center gap-10 md:gap-[90px] px-2 sm:px-0">
-			<div>
+		<div class="flex justify-end md:justify-between md:items-center flex-row-reverse md:flex-row gap-10 md:gap-[90px] px-2 md:px-0">
 				<img
 					class="hidden md:inline-block"
 					src="@/assets/images/during.png"
 					width="546"
 					height="652"
 				/>
-			</div>
 			<div class="max-w-[605px]">
 				<h3 class="font-bold text-2xl md:text-[40px] text-[#23153E] mb-3.5">
 					During pregnancy
