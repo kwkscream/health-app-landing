@@ -15,9 +15,9 @@ const handleForm = () =>{
 </script>
 
 <template>
-	<main class="max-w-[1240px] w-full mx-auto px-4">
+	<main class="max-w-[1240px] w-full mx-auto px-4 md:px-0">
 		<div
-			class="bg-[url('@/assets/images/form_bg.png')] bg-no-repeat bg-cover bg-center h-[560px] rounded-3xl mb-[100px] flex justify-center items-center"
+			class="bg-[url('/form_bg/form_bg.png')] bg-no-repeat bg-cover bg-center h-[560px] rounded-3xl mb-[100px] flex justify-center items-center"
 		>
 			<form
 				@submit.prevent="handleForm"
