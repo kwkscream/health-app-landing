@@ -21,9 +21,9 @@ const handleForm = () =>{
 		>
 			<form
 				@submit.prevent="handleForm"
-				class="flex flex-col max-w-[400px] justify-center items-center"
+				class="flex flex-col max-w-[400px] justify-center items-center px-4"
 			>
-				<h2 class="text-white text-3xl md:text-5xl font-bold mb-4">
+				<h2 class="whitespace-nowrap text-white text-3xl md:text-5xl font-bold mb-4">
 					Send your data
 				</h2>
 				<input
@@ -32,7 +32,7 @@ const handleForm = () =>{
 					placeholder="Name"
 					type="text"
 					name="fname"
-					class="pl-[30px] py-[15px] pr-[260] bg-white rounded-full mb-4"
+					class="w-full pl-[30px] py-[15px] pr-[260] bg-white rounded-full mb-4"
 				/>
 				<input
 					v-model="form.sname"
@@ -40,7 +40,7 @@ const handleForm = () =>{
 					placeholder="Second Name"
 					type="text"
 					name="sname"
-					class="pl-[30px] py-[15px] pr-[260] bg-white rounded-full mb-4"
+					class="w-full pl-[30px] py-[15px] pr-[260] bg-white rounded-full mb-4"
 				/>
 				<input
 					v-model="form.email"
@@ -48,7 +48,7 @@ const handleForm = () =>{
 					placeholder="Email"
 					type="email"
 					name="email"
-					class="pl-[30px] py-[15px] pr-[260] bg-white rounded-full mb-4"
+					class="w-full pl-[30px] py-[15px] pr-[260] bg-white rounded-full mb-4"
 				/>
 				<input
 					v-model="form.adress"
@@ -56,7 +56,7 @@ const handleForm = () =>{
 					placeholder="Adress"
 					type="text"
 					name="adress"
-					class="pl-[30px] py-[15px] pr-[260] bg-white rounded-full mb-4"
+					class="w-full pl-[30px] py-[15px] pr-[260] bg-white rounded-full mb-4"
 				/>
 
 				<button

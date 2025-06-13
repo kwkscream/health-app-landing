@@ -24,7 +24,7 @@
 				<h1 class="text-2xl md:text-2xl lg:text-[56px] font-bold mb-5">
 					Strong for life with us
 				</h1>
-				<div class="w-[23px] h-[2px] bg-[#FF2D55] sm:h-[3px] sm:w-[46px] mb-6 md:mb-9"></div>
+				<div class="w-[23px] h-[2px] bg-[#FF2D55] sm:h-[3px] sm:w-[46px] mb-3 md:mb-9"></div>
 				<p class="hidden sm:inline-block text-[#443A5A] text-base md:text-lg lg:text-2xl mb-9">
 					The best Pre/postnatal fitness app! 100 exercises divided in
 					before, during and after pregnancy. Stay strong and healthy

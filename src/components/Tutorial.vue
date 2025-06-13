@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-	<section class="max-w-[1230px] w-full mx-auto mb-[160px] px-4">
+	<section class="max-w-[1230px] w-full mx-auto mb-[160px] px-4 flex flex-col items-center">
 		<div class="flex items-center justify-center">
 			<div class="flex flex-col justify-center items-center">
 				<h2 class="text-3xl md:text-5xl font-bold mb-6 text-[#23153E]">
@@ -13,7 +13,7 @@
 				<div class="bg-[#FF2D55] h-[2px] w-[34px] md:h-[3px] md:w-[46px] mb-[60px]"></div>
 			</div>
 		</div>
-		<div class="flex gap-10">
+		<div class="flex flex-col max-w-full sm:max-w-5/6 md:flex-row gap-10">
 			<div class="flex gap-4 md:gap-10 max-w-[596px]">
 				<img
 					src="@/assets/Icons/search_icon.svg"
