@@ -80,9 +80,9 @@ const articles = [
 							class="w-full absolute bottom-[16px] left-[16px] right-[99px]"
 						>
 							<h5
-								class="font-bold text-lg md:text-2xl text-white md:mb-[6px]"
+								class="font-bold text-lg md:max-w-[247px] md:text-xl text-white md:mb-[6px]"
 							>
-								Stroller walks
+								{{article.title}}
 							</h5>
 							<span
 								class="text-xs md:text-base text-white leading-7"
