@@ -3,14 +3,14 @@
 <template>
 	<section class="max-w-[1240px] w-full mx-auto mb-[160px] px-4 md:px-0 flex flex-col items-center">
 		<div class="flex items-center justify-center">
-			<div class="flex flex-col justify-center items-center">
+			<div class="flex flex-col justify-center items-center mb-[60px]">
 				<h2 class="text-3xl md:text-5xl font-bold mb-6 text-[#23153E]">
 					How does it work?
 				</h2>
 				<p class="text-lg md:text-4xl font-medium text-[#443A5A] mb-5">
 					Easy, fun & essential training for moms
 				</p>
-				<div class="bg-[#FF2D55] h-[2px] w-[34px] md:h-[3px] md:w-[46px] mb-[60px]"></div>
+				<div class="bg-[#FF2D55] h-[2px] w-[34px] md:h-[3px] md:w-[46px]"></div>
 			</div>
 		</div>
 		<div class="flex flex-col max-w-full sm:max-w-5/6 md:flex-row gap-10">

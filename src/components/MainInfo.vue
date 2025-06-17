@@ -14,7 +14,7 @@
 				selected to ensure safe and appropriate adjustments to follow
 				the pregnancy’s progress.
 			</p>
-			<div class="bg-[#FF2D55] h-[3px] w-[46px] mb-[60px]"></div>
+			<div class="bg-[#FF2D55] h-[3px] w-[46px]"></div>
 		</div>
 
 		<div
