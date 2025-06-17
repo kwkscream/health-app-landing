@@ -80,7 +80,7 @@ const articles = [
 							class="w-full absolute bottom-[16px] left-[16px] right-[99px]"
 						>
 							<h5
-								class="font-bold text-lg md:max-w-[247px] md:text-xl text-white md:mb-[6px]"
+								class="font-bold text-lg lg:max-w-[247px] md:text-xl text-white md:mb-[6px]"
 							>
 								{{article.title}}
 							</h5>
