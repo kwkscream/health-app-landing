@@ -113,28 +113,28 @@ const toggleMobileMenu = () => {
 
 						<div
 							v-if="isToggleOpen"
-							class="absolute left-0 mt-3 w-44 bg-white rounded shadow-lg z-50"
+							class="absolute left-0 mt-3 w-44 bg-white rounded shadow-lg z-50 max-w-[176px]"
 						>
 							<a
 								href="/"
-								class="flex items-center text-sm px-4 py-2 text-[#23153E] hover:bg-gray-100"
+								class="flex items-center text-sm px-4 py-2 text-[#23153E] hover:bg-gray-100 max-h-[40px]"
 							>
 								<img
 									src="@/assets/Icons/sverige_icon.svg"
-									width="24"
-									height="24"
+									width="32"
+									height="32"
 									class="mr-2"
 								/>
 								Sverige
 							</a>
 							<a
 								href="/"
-								class="flex items-center text-sm px-4 py-2 text-[#23153E] hover:bg-gray-100"
+								class="flex items-center text-sm px-4 py-2 text-[#23153E] hover:bg-gray-100 max-h-[40px]"
 							>
 								<img
 									src="@/assets/Icons/english_icon.svg"
-									width="24"
-									height="24"
+									width="32"
+									height="32"
 									class="mr-2"
 								/>
 								English
